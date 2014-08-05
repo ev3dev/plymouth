@@ -1,7 +1,8 @@
 Source: plymouth
 Section: misc
 Priority: optional
-Maintainer: Laurent Bigonville <bigon@debian.org>
+Maintainer: David Lechner <david@lechnology.com>
+XSBC-Original-Maintainer: Laurent Bigonville <bigon@debian.org>
 Uploaders: Sjoerd Simons <sjoerd@debian.org>
 Build-Depends:
  debhelper (>= 9),
@@ -18,8 +19,10 @@ Build-Depends:
  xsltproc,
 Standards-Version: 3.9.5
 Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
-Vcs-Git: git://anonscm.debian.org/collab-maint/plymouth.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/plymouth.git
+Vcs-Git: git://github.com/ev3dev/plymouth.git
+Vcs-Browser: https://github.com/ev3dev/plymouth
+#Vcs-Git: git://anonscm.debian.org/collab-maint/plymouth.git
+#Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/plymouth.git
 
 Package: plymouth
 Architecture: linux-any
