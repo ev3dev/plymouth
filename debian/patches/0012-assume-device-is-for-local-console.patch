@@ -1,0 +1,22 @@
+--- a/src/libply-splash-core/ply-device-manager.c
++++ b/src/libply-splash-core/ply-device-manager.c
+@@ -169,15 +169,15 @@
+ create_seat_for_udev_device (ply_device_manager_t *manager,
+                              struct udev_device   *device)
+ {
+-  bool for_local_console;
++  //bool for_local_console;
+   const char *device_path;
+   ply_terminal_t *terminal = NULL;
+ 
+-  for_local_console = device_is_for_local_console (manager, device);
++  //for_local_console = device_is_for_local_console (manager, device);
+ 
+-  ply_trace ("device is for local console: %s", for_local_console? "yes" : "no");
++  //ply_trace ("device is for local console: %s", for_local_console? "yes" : "no");
+ 
+-  if (for_local_console)
++  //if (for_local_console)
+     terminal = manager->local_console_terminal;
+ 
+   device_path = udev_device_get_devnode (device);

@@ -8,3 +8,4 @@
 0009-use-correct-utf8-multibyte-sequence.patch
 0010-revert-systemd-wantedby.patch
 0011-framebuffer-crash.patch
+0012-assume-device-is-for-local-console.patch
