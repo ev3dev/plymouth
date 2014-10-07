@@ -9,3 +9,4 @@
 0010-revert-systemd-wantedby.patch
 0011-framebuffer-crash.patch
 0012-assume-device-is-for-local-console.patch
+libply-splash-core-also-monitor-for-file-removal-in-.patch
